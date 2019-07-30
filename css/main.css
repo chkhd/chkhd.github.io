@@ -1,0 +1,56 @@
+
+.logo {
+    filter: invert(1);
+    padding-left: 10px;
+    height: 20px;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.enableFooter {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contentAboveFooter {
+  flex: 1;
+}
+
+.footer {
+    padding: 10px 0;
+}
+
+.is-link {
+    color: black;
+}
+
+a.navbar-item:hover {
+    color: black;
+}
+
+a.navbar-item.is-active {
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    a.navbar-item:hover {
+        color: white;
+    }
+
+    a.navbar-item.is-active {
+        color: white;
+    }
+
+    .is-link {
+        color: grey;
+    }
+}

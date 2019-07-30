@@ -1,56 +1,77 @@
 
-.logo {
-    filter: invert(1);
-    padding-left: 10px;
-    height: 20px;
-}
+body {
+    font-family: 'SF Mono', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 16px;
 
-.home {
-    text-decoration: none;
-    color: white;
-}
-
-.home:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.enableFooter {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
-.contentAboveFooter {
-  flex: 1;
+#root {
+    flex: 1 0 auto;
 }
 
-.footer {
-    padding: 10px 0;
+*:focus {
+    outline: none;
 }
 
-.is-link {
-    color: black;
+.content {
+    margin: 1.2rem 1.2rem 1.2rem 1.2rem;
+}
+
+.navmain {
+    float: top;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navstart {
+    flex-wrap: nowrap;
+    background-color: black;
+    justify-content: flex-start;
+}
+
+.navend {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    color: white;
+    text-decoration: None;
 }
 
 a.navbar-item:hover {
+    color: white;
+    background-color: black;
+    transition: all 0s;
+}
+
+a {
     color: black;
 }
 
-a.navbar-item.is-active {
+.foota {
+    color: inherit;
+}
+
+.foota:hover {
     color: black;
+}
+
+.footer {
+    padding: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
-    a.navbar-item:hover {
+    .foota:hover {
         color: white;
-    }
-
-    a.navbar-item.is-active {
-        color: white;
-    }
-
-    .is-link {
-        color: grey;
     }
 }

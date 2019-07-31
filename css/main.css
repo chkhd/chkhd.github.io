@@ -76,7 +76,7 @@ a {
     margin-right: 0;
 }
 
-@media only screen and (width: 768px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (width: 1023px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
     .navmain, .content, .footer {
         margin: 0;
     }

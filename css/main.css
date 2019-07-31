@@ -1,15 +1,9 @@
 
 body {
     font-family: 'SF Mono', 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 16px;
-
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-}
-
-#root {
-    flex: 1 0 auto;
 }
 
 *:focus {
@@ -67,9 +61,14 @@ a {
 }
 
 .footer {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
+}
+
+.fixfooter {
+    flex: 1;
 }
 
 @media (prefers-color-scheme: dark) {

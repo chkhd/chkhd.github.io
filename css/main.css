@@ -77,8 +77,12 @@ a {
 }
 
 @media only screen and (width: 1023px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-    .navmain, .footer {
+    .navmain, .content, .footer {
         margin: 0;
+    }
+
+    .message, .post {
+        margin: 1.2rem;
     }
 }
 

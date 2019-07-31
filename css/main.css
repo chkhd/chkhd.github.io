@@ -76,6 +76,12 @@ a {
     margin-right: 0;
 }
 
+@media only screen and (max-device-width: 768px) {
+    .navmain, .content, .footer {
+        margin: 0;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
     .foota:hover {
         color: white;

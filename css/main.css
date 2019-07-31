@@ -6,6 +6,10 @@ body {
     flex-direction: column;
 }
 
+.navmain, .content, .footer {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 *:focus {
     outline: none;
 }
@@ -60,16 +64,16 @@ a {
     color: black;
 }
 
+.fixfooter {
+    flex: 1;
+}
+
 .footer {
     background-color: inherit;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
-}
-
-.fixfooter {
-    flex: 1;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -76,18 +76,6 @@ a {
     margin-right: 0;
 }
 
-@media only screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-
-    .navmain, .content, .footer {
-        margin: 0;
-    }
-
-    .message, .post {
-        margin: 1.2rem;
-    }
-
-}
-
 @media (prefers-color-scheme: dark) {
 
     .foota:hover {

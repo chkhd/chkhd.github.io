@@ -77,7 +77,7 @@ a {
 }
 
 .quote {
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 @media (prefers-color-scheme: dark) {

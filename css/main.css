@@ -15,7 +15,7 @@ body {
 }
 
 .content {
-    margin: 1.2rem 1.2rem 1.2rem 1.2rem;
+    margin: 1.2rem 1.2rem 1rem 1rem;
 }
 
 .navmain {
@@ -80,10 +80,28 @@ a {
     margin-bottom: 30px;
 }
 
+.quote-body {
+    border-left: 2px solid black;
+    padding-left: 1rem;
+}
+
+.quote-author {
+    text-effect: engrave;
+    padding-left: 1rem;
+}
+
 @media (prefers-color-scheme: dark) {
 
     .foota:hover {
         color: white;
+    }
+
+    .quote-body {
+        border-left: 2px solid dimgrey;
+    }
+
+    .quote-author {
+        color: dimgrey;
     }
 
 }

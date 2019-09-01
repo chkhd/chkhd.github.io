@@ -88,7 +88,7 @@ a {
 .quote-author {
     text-effect: engrave;
     padding-left: 1rem;
-    font-family: dijkstra;
+    font-family: dijkstra, 'SF Mono','Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

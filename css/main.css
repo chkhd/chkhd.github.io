@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'SF Mono', 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -88,7 +88,7 @@ a {
 .quote-author {
     text-effect: engrave;
     padding-left: 1rem;
-    font-family: dijkstra, 'SF Mono','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Helvetica Neue',Arial,sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

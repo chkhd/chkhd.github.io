@@ -13,48 +13,44 @@
     <link rel="apple-touch-icon" href="icon.png">
     <link rel="icon" href="icon.png">
 
-    <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/bulma-prefers-dark.min.css">
+    <link rel="stylesheet" href="css/planck/planck.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
-<nav>
-    <div class="navmain">
-        <div class="navstart">
-            <a class="navbar-item logo is-hidden-tablet is-hidden-desktop is-hidden-fullhd is-hidden-widescreen is-family-monospace"
-               href="index.html">
-                FDD
-            </a>
-            <a class="navbar-item logo is-hidden-mobile is-family-monospace" href="index.html">
-                Facepalm Driven Development
-            </a>
-        </div>
-        <div class="navend is-family-monospace">
-            <a class="navbar-item" href="#">Blog</a>
-            <a class="navbar-item" href="quotes.html">Quotes</a>
-        </div>
+<nav class="menu">
+    <div class="menu-start">
+        <a class="menu-item logo mobile" href="index.html">FDD</a>
+        <a class="menu-item logo desktop" href="index.html">Facepalm Driven Development</a>
+    </div>
+    <div class="menu-end">
+        <a class="menu-item" href="#">Posts</a>
+        <a class="menu-item" href="code.html">Code</a>
+        <a class="menu-item active" href="quotes.html">Quotes</a>
     </div>
 </nav>
 
 <div class="content">
-    <div class=" quote">
+    <div class="message">
+        Quotes that have and still continue to inspire me. I think wisdom in most of them can be appreciated readily,
+        but personally I had to be in the right place at the right time to <i>truly</i> understand some of them.
+    </div>
+    <div class="quote">
+        <p class="quote-author">George Bernard Shaw</p>
         <p class="quote-body">The single biggest problem in communication is the illusion that it has taken place.</p>
-        <p class="quote-author has-text-grey">George Bernard Shaw</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Master Shifu, Kun-Fu Panda 3</p>
         <p class="quote-body">If you only do what you can do, you will never be more than who you are.</p>
-        <p class="quote-author has-text-grey">Master Shifu, Kun-Fu Panda 3</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Richard W. Hamming</p>
         <p class="quote-body">What you learn from others you can use to follow. What you learn for yourself you can use
             to lead.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Beware of finding what you're looking for.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Indeed, one of my major complaints about the computer field is that whereas Newton could
@@ -66,35 +62,29 @@
             of
             it in a trivially different way. <i>Science is supposed to be cumulative, not almost endless duplication of
                 the same kind of things.</i></p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">If you don’t work on important problems, it’s not likely that you'll do important
             work.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">In science if you know what you are doing you should not be doing it. In engineering if
             you do not know what
             you are doing you should not be doing it.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">He who works with the door open gets all kinds of interruptions, but he also occasionally
             gets clues as to
             what the world is and what might be important.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Teachers should prepare the student for the student's future, not for the teacher's
             past.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Often it is not physical limitations... but rather it is human made laws, habits, and
             organizational rules,
             regulations, personal egos, and inertia, which dominate the evolution of the future.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">It is well known the drunken sailor who staggers to the left or right with n independent
@@ -110,7 +100,6 @@
             therefore can only react to the current events as they happen. <i>The accuracy of the vision matters less
                 than you suppose, getting anywhere is better than drifting</i>, there are potentially many paths to
             greatness for you... <i>No vision, not much of a future.</i></p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">You ought to try to make significant contributions to humanity rather than just get along
@@ -119,18 +108,18 @@
             without a struggle on your part to make yourself excellent is hardly a life worth living. ...a life without
             such
             a goal... is merely existing…</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Buddha told his disciples, "Believe nothing, no matter where you read it, or who said it,
             no matter if I have
             said it, unless it agrees with your own reason and your own common sense". I say the same to you -<i>you
                 must assume the responsibility for what you believe.</i></p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
+    </div>
+    <div class="quote">
+        <p class="quote-body">Mathematics is the language of clear thinking.</p>
     </div>
     <div class="quote">
         <p class="quote-body">Typing is no substitute for thinking.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Often the great scientists, by turning the problem around a bit, changed a defect to an
@@ -138,99 +127,68 @@
                 example, many scientists when they found they couldn't do a problem finally began to study why not</i>.
             They then turned it around the other way and said, “But of course, this is what it is” and got an important
             result.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">One of the characteristics of successful scientists is having courage. Once you get your
             courage up and
             believe that you can do important problems, then you can. If you think you can't, almost surely you are not
             going to.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">Luck favours the prepared mind.</p>
-        <p class="quote-author has-text-grey">Luis Pasteur</p>
     </div>
     <div class="quote">
         <p class="quote-body">It is a poor workman who blames his tools—the good man gets on with the job, given what
             he's got, and gets
             the best answer he can.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
         <p class="quote-body">Knowledge and productivity are like compound interest. Given two people with exactly the
             same ability, the
             one person who manages day in and day out to get in one more hour of thinking will be tremendously more
             productive over a lifetime.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Luis Pasteur</p>
+        <p class="quote-body">Luck favours the prepared mind.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-author">Jan Houtema</p>
         <p class="quote-body">Change breaks the brittle.</p>
-        <p class="quote-author has-text-grey">Jan Houtema</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">Programs must be written for people to read, and only incidentally for machines to
-            execute.</p>
-        <p class="quote-author has-text-grey">Abelson &amp; Sussman</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">Don't worry about what anybody else is going to do. The best way to predict the future is
-            to invent it.</p>
-        <p class="quote-author has-text-grey">Alan Kay</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">The best writing is rewriting.</p>
-        <p class="quote-author has-text-grey">E. B. White</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">The key to performance is elegance, not battalions of special cases.</p>
-        <p class="quote-author has-text-grey">Jon Bentley and Doug McIlroy</p>
     </div>
     <div class="quote">
         <p class="quote-body">Your twenties are always an apprenticeship, but you don't always know what for.</p>
-        <p class="quote-author has-text-grey">Jan Houtema</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Abelson &amp; Sussman</p>
+        <p class="quote-body">Programs must be written for people to read, and only incidentally for machines to
+            execute.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-author">Alan Kay</p>
+        <p class="quote-body">Don't worry about what anybody else is going to do. The best way to predict the future is
+            to invent it.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-author">E. B. White</p>
+        <p class="quote-body">The best writing is rewriting.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-author">Jon Bentley and Doug McIlroy</p>
+        <p class="quote-body">The key to performance is elegance, not battalions of special cases.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-author">Mark Twain</p>
         <p class="quote-body">Keep away from people who try to belittle your ambitions. Small people always do that, but
             the really great
             make you feel that you, too, can become great.</p>
-        <p class="quote-author has-text-grey">Mark Twain</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Steve Jobs</p>
         <p class="quote-body">Focusing is about saying no.</p>
-        <p class="quote-author has-text-grey">Steve Jobs</p>
     </div>
     <div class="quote">
-        <p class="quote-body">Mathematics is the language of clear thinking.</p>
-        <p class="quote-author has-text-grey">Richard W. Hamming</p>
-    </div>
-    <div class="quote">
+        <p class="quote-author">??</p>
         <p class="quote-body">The secret backstory of The Lord of the Rings: Gandalf is trying to get an achievement for
             taking the Ring to
             Mordor using only Hobbits.</p>
-        <p class="quote-author has-text-grey">Uknown Author</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">Perfection of planning is a symptom of decay.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">A large system produced by expanding the dimensions of a smaller system does not behave
-            like the smaller
-            system.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">Things indeed are not working very well. In fact, they never did.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">Problems are not the problem; Coping is the problem.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
-    </div>
-    <div class="quote">
-        <p class="quote-body">A temporary patch will very likely be permanent.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
     </div>
     <div class="quote">
         <p class="quote-body">A woodcutter strained to saw down a tree. A young man who was watching asked “What are you
@@ -243,57 +201,70 @@
             the
             tree much faster.” The woodcutter said “I don’t have time to sharpen the saw. Don’t you see I’m too
             busy?”</p>
-        <p class="quote-author has-text-grey">??</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Benjamin Franklin</p>
         <p class="quote-body">If you fail to plan, you are planning to fail.</p>
-        <p class="quote-author has-text-grey">Benjamin Franklin</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Sir Ernest Gowers, The Complete Plain Words</p>
         <p class="quote-body">The requirement for all writers is to know just what meaning they want to convey, and it
             is only by clothing
             their thoughts in words that they can think at all.</p>
-        <p class="quote-author has-text-grey">Sir Ernest Gowers, The Complete Plain Words</p>
     </div>
     <div class="quote">
         <p class="quote-body">The less one makes a habit of thinking, the less one is able to think: the power of
             thinking atrophies unless
             it is used.</p>
-        <p class="quote-author has-text-grey">Sir Ernest Gowers, The Complete Plain Words</p>
     </div>
     <div class="quote">
+        <p class="quote-author">Dr. Laurence J. Peter, Peter principle</p>
         <p class="quote-body">People in a System rise to their level of incompetence.</p>
-        <p class="quote-author has-text-grey">Dr. Laurence J. Peter, Peter principle</p>
     </div>
     <div class="quote">
+        <p class="quote-author">K. Hafner, M. Lyon: Where wizards stay up late, p. 22</p>
         <p class="quote-body">As ARPA features took shape, one readily apparent characteristic of the agency was that
             its relatively small
             size allowed the personality of its director to permeate the organisation.</p>
-        <p class="quote-author has-text-grey">K. Hafner, M. Lyon: Where wizards stay up late, p. 22</p>
     </div>
     <div class="quote">
+        <p class="quote-author">John Gall, Systemantics</p>
         <p class="quote-body">Systems-people everywhere share certain attributes, but each specific System tends to
             attract people with
             specific set of traits.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
     </div>
     <div class="quote">
         <p class="quote-body">Any large system is going to be operating most of the time in failure mode.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
     </div>
     <div class="quote">
         <p class="quote-body">When a fail-safe system fails, it fails by failing to fail-safe.</p>
-        <p class="quote-author has-text-grey">John Gall, Systemantics</p>
+    </div>
+    <div class="quote">
+        <p class="quote-body">Perfection of planning is a symptom of decay.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-body">A large system produced by expanding the dimensions of a smaller system does not behave
+            like the smaller
+            system.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-body">Things indeed are not working very well. In fact, they never did.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-body">Problems are not the problem; Coping is the problem.</p>
+    </div>
+    <div class="quote">
+        <p class="quote-body">A temporary patch will very likely be permanent.</p>
     </div>
 </div>
 
-<div class="fixfooter"></div>
-<div class="footer has-text-centered has-text-grey">
-    <p class="is-size-7">
-        Copyright &copy; 2019
-        <a class="foota" href="http://keybase.io/chkhd">David Chkhikvadze</a>
+<footer>
+    <p class="dim">
+        Original content copyright &copy; 2019
+        <a class="dim" href="https://www.linkedin.com/in/chkhd">David Chkhikvadze</a>,
+        All rights reserved.
     </p>
-</div>
+</footer>
 
 </body>
 
